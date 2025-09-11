@@ -8,7 +8,7 @@
 
 body {
     margin: 0px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .background {
@@ -56,7 +56,7 @@ body {
 .menu-link-style {
     list-style-type: none;
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto; 
+    font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -79,7 +79,7 @@ body {
     text-align: center;
     margin-bottom: 0px;
     margin-top: 80px;
-    word-spacing:10px;
+    word-spacing: 10px;
 }
 
 #hellokitty-icon {
@@ -131,8 +131,8 @@ body {
 
 .line-color {
     border-color: rgb(255, 219, 182);
-    margin-top:70px;
-    margin-bottom:70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 /* home page 2 paragraph  */
@@ -250,4 +250,3 @@ body {
     margin-right: auto;
     width: fit-content
 }
-
