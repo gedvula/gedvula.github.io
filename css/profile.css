@@ -1,0 +1,265 @@
+.profile-header1 {
+    color: rgb(255, 242, 239);
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.profile-me-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 7px solid rgb(255, 219, 182);
+    position: absolute;
+    left: 44.4%;
+    top: 48%;
+    transition: background-image 0.5s ease-in-out;
+    /* Smooth transition */
+}
+
+.profile-washing {
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+    margin-right:45px;
+    width: 600px;
+}
+
+.profile-me-image:hover {
+    animation: spin 1s linear infinite;
+    background-image: url('resources/images/washing-machine-mypicture2.jpg');
+}
+
+.profile-icon-banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-text-icons {
+    white-space: pre;
+    font-family: monospace;
+    color: white;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* profile paragraph page 1 */
+
+.rainbow-text {
+    letter-spacing: 0.15rem;
+    color: rgb(255, 219, 182);
+    font-size: 40px;
+    font-family: "Gorditas", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    transition: 1s;
+    padding-left: 15px;
+}
+
+.rainbow-text:hover {
+
+    text-shadow: -4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        -24px 24px #43a047,
+        -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        -36px 36px #ff5722;
+}
+
+.profile-subtitle {
+    /* text-align: center; */
+    letter-spacing: 0.15rem;
+    color: rgb(255, 219, 182);
+    font-size: 40px;
+    font-family: "Gorditas", serif;
+    font-weight: 500;
+    font-style: normal;
+    /* margin-bottom: 80px; */
+    /* margin-top: 68px; */
+    padding-left: 10px;
+
+}
+
+
+.profile-container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.texts-and-icons-container{
+    margin-top:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.texts-and-icons-position{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.social-icons{
+    width:100px;
+    padding-right:10px;
+    height:100px;
+}
+.texts-and-icons-hover-style{
+    font-style: normal;
+    transition: 1s;
+    padding-left:10px;
+    letter-spacing: 0.15rem;
+    color: rgb(255, 219, 182);
+    font-family: "Gorditas", serif;
+    transition: 1s;
+     /* text-decoration-color: rgb(255, 219, 182); */
+    font-size: 30px;
+    /* font-family: "Sour Gummy", sans-serif; */
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-variation-settings: "wdth" 104.7;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.texts-and-icons-hover-style:hover {
+
+    text-shadow: -4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        -24px 24px #43a047,
+        -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        -36px 36px #ff5722;
+}
+
+/* profile paragraph page 2 */
+
+.profile-playlist-board {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+iframe {
+    border: 4px solid rgb(247, 165, 165);
+    height: 545px;
+}
+
+.image-disk {
+    animation: spin 10s linear infinite;
+    width: auto;
+    margin-right: 100px;
+    height: auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* profile paragraph page 3 */
+    
+.profile-picture-container{
+ display:flex;
+ justify-content: space-around;
+  align-items: center;
+} 
+
+.profile-picture-style {
+    width: 300px;
+    height: 200px;
+    border: 4px solid rgb(255, 219, 182);
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.profile-reasons-list {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 0px;
+    background-color: rgb(247, 165, 165);
+    border-radius: 100px;
+    width: 510px;
+    height: 400px;
+    align-content: center;
+
+}
+
+.profile-reasons-list-style {
+    color: rgb(255, 242, 239);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    font-size: 25px;
+
+}
+
+.character-struggling-image {
+    display: flex;
+    justify-content: center;
+}
+
+.character-image-margin {
+    margin-right: 10px;
+}
+
+.symbol-profile-list li::marker {
+    content: "❀";
+    font-size: 1.2em;
+    color: rgb(255, 219, 182);
+}
+
+.footer-text{
+    color: rgb(255, 242, 239);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    font-size: 15px;
+}
+
+.aside-links-style {
+    color: rgb(255, 242, 239);
+    text-decoration-color: rgb(255, 219, 182);
+    font-size: 30px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Oswald:wght@500&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Oswald:wght@500&family=Sour+Gummy:ital,wdth,wght@0,104.7,100..900;1,104.7,100..900&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Gorditas:wght@400;700&family=Oswald:wght@500&family=Sour+Gummy:ital,wdth,wght@0,104.7,100..900;1,104.7,100..900&family=Zen+Dots&display=swap');
+
+/* general */
+
+
+body {
+    margin: 0px;
+    margin-bottom:30px;
+}
+
+.background {
+    background-color: rgb(247, 165, 165);
+}
+
+/* nav bar */
+
+.menu {
+    display: flex;
+    /* box-shadow:2px; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+
+}
+
+.hzlogo-png {
+    width: 10rem;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.menu-style:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(93, 104, 138);
+
+}
+
+.menu-style:active {
+    color: rgb(93, 104, 138);
+}
+
+.menu-style {
+    padding: 18px;
+    color: rgb(255, 242, 239);
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    transition: opacity 0.5s, color 0.6s;
+}
+
+.menu-link-style {
+    list-style-type: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto; 
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    padding: 0px;
+}
+
+.menu-style[aria-current="page"] {
+    color: rgb(93, 104, 138);
+}
+
+.home-header1 {
+    color: rgb(255, 242, 239);
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    word-spacing:10px;
+}
+
+#hellokitty-icon {
+    white-space: pre;
+    font-family: monospace;
+    color: white;
+    margin-left: auto;
+    width: fit-content;
+}
+
+/* home page 1 paragraph  */
+
+.home-paragraph-background-inside-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.home-paragraph-background {
+    border-radius: 20px;
+    background-color: rgb(93, 104, 138);
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#home-paragraph-background1 {
+    margin-top: 0px;
+}
+
+.home-paragraph {
+    color: rgb(255, 242, 239);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    font-size: 30px;
+}
+
+
+.line-color {
+    border-color: rgb(255, 219, 182);
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+/* home page 2 paragraph  */
+
+.home-subtitle-style1 {
+    color: rgb(255, 219, 182);
+    /* color:rgb(255, 242, 239); */
+    font-size: 35px;
+    font-family: "Gorditas", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+.home-gif-and-reasons-list-box {
+    display: flex;
+    align-items: center;
+}
+
+.cat-gif {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(255, 219, 182);
+    margin-left: 70px;
+}
+
+.cat-gif1 {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+    background-color: rgb(255, 219, 182);
+    margin-left: 30px;
+
+}
+
+/* home page 3 paragraph  */
+
+.symbol li::marker {
+    content: "⋆.𐙚 ̊";
+    font-size: 1.2em;
+    color: rgb(255, 219, 182);
+}
+
+.home-reasons-list {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.home-reasons-list-style {
+    color: rgb(255, 242, 239);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    font-size: 30px;
+}
+
+.aside-links-style {
+    color: rgb(255, 242, 239);
+    text-decoration-color: rgb(255, 219, 182);
+    font-size: 30px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.aside-links-style:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(255, 219, 182);
+}
+
+.aside-links-symbol li::marker {
+    content: "🔗";
+    font-size: 1.2em;
+    color: rgb(255, 219, 182);
+    margin: 0px;
+
+}
+
+.aside-links-background {
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(93, 104, 138);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+#miffy-icon {
+    white-space: pre;
+    font-family: monospace;
+    color: white;
+    margin-right: auto;
+    width: fit-content
+}
+
