@@ -250,3 +250,14 @@ body {
     margin-right: auto;
     width: fit-content
 }
+.footer-text {
+    color: rgb(255, 242, 239);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    font-size: 15px;
+    display: flex;
+    justify-content: end;
+}

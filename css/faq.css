@@ -6,3 +6,14 @@
     font-size: 60px;
     text-align: center;
 }
+.faq-container{
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+.faq-image{
+    display: inline-block;
+  width: 250px;
+  height:350px;
+  margin-right:100px;
+}
