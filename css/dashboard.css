@@ -60,3 +60,19 @@ td {
     display: flex;
     justify-content: center;
 }
+.grade-input {
+    width: 50px;
+    height: 30px;
+    color: rgb(93, 104, 138);
+    background-color: rgb(255, 219, 182);
+    font-size: 30px;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 104.7;
+    border-color:rgb(255, 219, 182);
+    border:2px;
+}
